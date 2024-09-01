@@ -1,0 +1,84 @@
+@font-face {
+  font-family: '메이플스토리 Light';
+  src: url('./font/Maplestory\ Light.ttf') format('truetype');
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.text-icon-container {
+  text-align: left;
+  align-items: center;
+}
+
+.text-icon {
+  text-align: left;
+}
+
+.child {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  font-family: '메이플스토리 Light';
+}
+
+.child-heart {
+  width: 500px;
+  height: auto;
+  text-align: left;
+}
+
+.header {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.h3 {
+  font-size: 150%;
+  margin-left: 8px;
+  text-align: left;
+}
+
+.h4 {
+  font-size: 100%;
+  margin-left: auto;
+  text-align: left;
+  line-height: 200%;
+}
+
+.nametag_img {
+  left: -20px;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  margin-bottom: -10px;
+}
+
+.nametag {
+  position: absolute;
+  top: 30%;
+  left: 34%;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.october {
+  color:rgb(175, 116, 116);
+}
