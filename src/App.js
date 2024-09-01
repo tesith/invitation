@@ -26,7 +26,7 @@ function App() {
       <div className="header">
         <Image src={frontImage} width="400px" height="400px" mode="contain" />
       </div>
-      <ul className="child">
+      <div className="child">
         조인식 <img src={heartImage} style={{verticalAlign: "middle"}} /> 정유하<br/>
         결혼합니다<br/>
         <br/>
@@ -34,10 +34,10 @@ function App() {
         2024년 10월 5일 토요일 오후 1시 10분<br/>
         W힐스컨벤션
         </div>
-      </ul>
+      </div>
       <Divider className="child" />
       <div>
-        <ul className="child" style={{textAlign: "left", paddingLeft: "150px", lineHeight: "150%"}}>
+        <ul className="child" style={{textAlign: "left", paddingLeft: "15%", lineHeight: "150%"}}>
           <span className="october">10월의 시작,</span><br/>
           저희 두 사람도 이제 사랑으로 하나되어<br/>
           한 길을 걷고자 합니다.<br/>
@@ -95,24 +95,6 @@ function App() {
         </ul>
       </div>
     </div>
-    /*
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-    */
   );
 }
 
