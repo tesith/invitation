@@ -1,3 +1,11 @@
 .address {
     color:rgb(175, 116, 116);
 }
+
+.map {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.4;
+    margin-left: 10px;
+    margin-right: 10px;
+}

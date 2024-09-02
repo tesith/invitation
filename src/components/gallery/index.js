@@ -26,6 +26,12 @@ const Gallery = ({style}) => {
     swiper?.slideNext()
   }
 
+  const customStyles = {
+      width: "90%",
+      height: "auto",
+      mode: "contain"
+  }
+
   return (
     <Swiper style={style}
       spaceBetween={50}
@@ -51,12 +57,12 @@ const Gallery = ({style}) => {
       }}
     >
       <SwiperSlide className="slide">
-        <Image src={img1} width='500px' height={300}mode="contain" />
+        <img src={img1} style={customStyles} />
       </SwiperSlide>
-      <SwiperSlide className="slide"><Image src={img2} width='500px' height={300}mode="contain"/></SwiperSlide>
-      <SwiperSlide className="slide"><Image src={img3} width='500px' height={300}mode="contain"/></SwiperSlide>
-      <SwiperSlide className="slide"><Image src={img4} width='500px' height={300}mode="contain"/></SwiperSlide>
-      <SwiperSlide className="slide"><Image src={img5} width='500px' height={300}mode="contain"/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={img2} style={customStyles}/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={img3} style={customStyles}/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={img4} style={customStyles}/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={img5} style={customStyles}/></SwiperSlide>
       <div className="swiper-button-next"></div>
       <div className="swiper-button-prev"></div>
     </Swiper>

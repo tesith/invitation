@@ -46,12 +46,12 @@ const Map = () => {
     }, []);
 
     return (
-        <div>
+        <div width="100%" height="100%">
             <div className="text-icon-container"style={{paddingBottom: "30px"}} >
                 <Image className="text-icon" src={mapImage}></Image>
                 <span className="h3">오시는 길</span>
             </div>
-            <div id="map" style={{width: 500, height: 400}}>
+            <div id="map" className="map">
             </div>
             <ul className="h4">
                 <span className="address">경기 성남시 분당구 성남대로925번길 16 지하1층 W힐스컨벤션</span><br/>

@@ -1,8 +1,11 @@
 import divider from '../../assets/line2.png';
+import './divider.css';
 
 const Divider = () => {
     return (
-        <img src={divider}></img>
+        <div>
+            <img className="divider" src={divider}></img>
+        </div>
     )
 }
 

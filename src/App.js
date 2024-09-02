@@ -23,11 +23,11 @@ function App() {
 
   return (
     <div className="App">
-      <div className="header">
-        <Image src={frontImage} width="400px" height="400px" mode="contain" />
+      <div className="header" width="400px" height="400px">
+        <Image src={frontImage} width="80%" height="80%" mode="cover" style={{display: "block", margin: "auto"}} />
       </div>
       <div className="child">
-        조인식 <img src={heartImage} style={{verticalAlign: "middle"}} /> 정유하<br/>
+        조인식 <img src={heartImage} style={{verticalAlign: "middle" }} /> 정유하<br/>
         결혼합니다<br/>
         <br/>
         <div style={{lineHeight: "150%"}}>
@@ -35,15 +35,15 @@ function App() {
         W힐스컨벤션
         </div>
       </div>
-      <Divider className="child" />
-      <div>
-        <ul className="child" style={{textAlign: "left", paddingLeft: "15%", lineHeight: "150%"}}>
+      <Divider />
+      <div className="child">
+        <p style={{textAlign: "left", paddingLeft: "6%", lineHeight: "150%"}}>
           <span className="october">10월의 시작,</span><br/>
           저희 두 사람도 이제 사랑으로 하나되어<br/>
           한 길을 걷고자 합니다.<br/>
           가까이서 저희의 출발을 응원해주시면<br/>
           더 없는 기쁨으로 간직하겠습니다.
-        </ul>
+        </p>
       </div>
       <Divider className="child" />
       <div className="child" >
