@@ -53,11 +53,11 @@ const Map = () => {
             </div>
             <div id="map" className="map">
             </div>
-            <ul className="h4">
+            <div className="h4">
                 <span className="address">경기 성남시 분당구 성남대로925번길 16 지하1층 W힐스컨벤션</span><br/>
                 ● 도보: 야탑역(분당선) 4번 출구 - 홈플러스 입구 지하1층<br/>
                 ● 자차: CGV야탑 주차장 4F~7F - 36번 기둥 근처 E/V 탑승 - 지하1층
-            </ul>
+            </div>
         </div>
     )
 }

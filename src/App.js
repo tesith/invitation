@@ -63,36 +63,40 @@ function App() {
           <Image className="text-icon" src={letterImage}></Image>
           <span className="h3">마음 전하실 곳</span>
         </div>
-        <ul className="child-heart">
+        <div className="child-heart">
+          <span>
           신랑측 계좌번호 <Button onClick={openModal}>보기</Button>
           <Modal isOpen={isModalOpen} close={closeModal}>
             <div className="nametag_img">
               <Image src={NametagGroom}></Image>
               <span className="nametag">신랑</span>
             </div>
-            <p>조인식 : 1002-541-398027 우리은행</p>
+            <p className="account">조인식 : 1002-541-398027 우리은행</p>
             <div className="nametag_img">
               <Image src={NametagGroom}></Image>
               <span className="nametag">혼주</span>
             </div>
-            <p>조철우(부) : 111-02-223604 농협은행</p>
+            <p className="account">조철우(부) : 111-02-223604 농협은행</p>
           </Modal>
           <br/>
+          </span>
+          <span>
           신부측 계좌번호 <Button onClick={openModal2}>보기</Button>
           <Modal isOpen={isModalOpen2} close={closeModal2}>
             <div className="nametag_img">
               <Image src={NametagBride}></Image>
               <span className="nametag">신부</span>
             </div>
-            <p>정유하 : 302-1603-1651-11 농협은행</p>
+            <p className="account">정유하 : 302-1603-1651-11 농협은행</p>
             <div className="nametag_img">
               <Image src={NametagBride}></Image>
               <span className="nametag">혼주</span>
             </div>
-            <p>정훈채(부) : 351-0058-8801-03 농협은행</p>
-            <p>한길순(모) : 207083-51-021081 지역농협</p>
+            <p className="account">정훈채(부) : 351-0058-8801-03 농협은행</p>
+            <p className="account">한길순(모) : 207083-51-021081 지역농협</p>
           </Modal>
-        </ul>
+          </span>
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import divider from '../../assets/line2.png';
+import divider from '../../assets/line3.png';
 import './divider.css';
 
 const Divider = () => {

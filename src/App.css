@@ -5,6 +5,7 @@
 
 .App {
   position: relative;
+  padding-left: 1%;
 }
 
 .App-logo {
@@ -24,6 +25,7 @@
 }
 
 .text-icon-container {
+  display: flex;
   text-align: left;
   align-items: center;
 }
@@ -40,9 +42,13 @@
 }
 
 .child-heart {
-  width: 500px;
+  width: 95%;
   height: auto;
   text-align: left;
+  line-height: 150%;
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 10%;
 }
 
 .header {
@@ -60,7 +66,8 @@
 
 .h4 {
   font-size: 100%;
-  margin-left: auto;
+  margin-top: 3%;
+  margin-left: 5%;
   text-align: left;
   line-height: 200%;
 }
@@ -83,4 +90,8 @@
 
 .october {
   color:rgb(175, 116, 116);
+}
+
+.account {
+  margin-left: 10px;
 }

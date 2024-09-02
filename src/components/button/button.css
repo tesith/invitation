@@ -6,11 +6,11 @@
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
-	color:#666666;
-	font-family:Arial;
+	color:#3d3d3d;
 	font-size:15px;
-	font-weight:bold;
-	padding:5px 13px;
+	padding:2px 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 }

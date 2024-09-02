@@ -40,10 +40,12 @@
 
 .swiper-button-next {
     right: 0px;
+    padding-right: 2px;
 }
 
 .swiper-button-prev {
     left: 0px;
+    padding-left: 2px;
 }
 
 .swiper-button-disabled {

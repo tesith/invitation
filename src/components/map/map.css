@@ -3,9 +3,9 @@
 }
 
 .map {
-    width: 100%;
+    width: 90%;
     height: auto;
     aspect-ratio: 1.4;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
 }

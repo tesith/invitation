@@ -1,8 +1,8 @@
 import "./button.css";
 
-const Button = ({onClick, children}) => {
+const Button = ({onClick, children, ...props}) => {
     return (
-        <ul className="myButton" onClick={onClick}>{children}</ul>
+        <span className="myButton" onClick={onClick} style={{...props.style}}>{children}</span>
     )
 }
 
