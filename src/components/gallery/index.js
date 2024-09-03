@@ -12,8 +12,6 @@ import img2 from '../../assets/image-gallery/img2.jpg';
 import img3 from '../../assets/image-gallery/img3.jpg';
 import img4 from '../../assets/image-gallery/img4.jpg';
 import img5 from '../../assets/image-gallery/img5.jpg';
-import img6 from '../../assets/image-gallery/img6.jpg';
-import img7 from '../../assets/image-gallery/img7.jpg';
 
 import './gallery.css';
 
@@ -66,8 +64,6 @@ const Gallery = ({style}) => {
       <SwiperSlide className="swiper-slide" zoom="true"><img src={img3} style={customStyles}/></SwiperSlide>
       <SwiperSlide className="swiper-slide" zoom="true"><img src={img4} style={customStyles}/></SwiperSlide>
       <SwiperSlide className="swiper-slide" zoom="true"><img src={img5} style={customStyles}/></SwiperSlide>
-      <SwiperSlide className="swiper-slide" zoom="true"><img src={img6} style={customStyles}/></SwiperSlide>
-      <SwiperSlide className="swiper-slide" zoom="true"><img src={img7} style={customStyles}/></SwiperSlide>
       <div className="swiper-button-next"></div>
       <div className="swiper-button-prev"></div>
     </Swiper>
