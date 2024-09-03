@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/invitation/static/css/main.b81bd7c0.css",
-    "main.js": "/invitation/static/js/main.ca912a92.js",
+    "main.css": "/invitation/static/css/main.04334638.css",
+    "main.js": "/invitation/static/js/main.fbd61d26.js",
     "static/js/453.21be8fb1.chunk.js": "/invitation/static/js/453.21be8fb1.chunk.js",
     "static/media/Maplestory Light.ttf": "/invitation/static/media/Maplestory Light.9d9497585053c96c8082.ttf",
     "static/media/KIM_0026_custom.png": "/invitation/static/media/KIM_0026_custom.184cb0f930d711c30ce3.png",
@@ -11,12 +11,12 @@
     "static/media/img4.jpg": "/invitation/static/media/img4.e79e98ccbade4140e4ab.jpg",
     "static/media/img3.jpg": "/invitation/static/media/img3.dadb1584ebbde33571ca.jpg",
     "index.html": "/invitation/index.html",
-    "main.b81bd7c0.css.map": "/invitation/static/css/main.b81bd7c0.css.map",
-    "main.ca912a92.js.map": "/invitation/static/js/main.ca912a92.js.map",
+    "main.04334638.css.map": "/invitation/static/css/main.04334638.css.map",
+    "main.fbd61d26.js.map": "/invitation/static/js/main.fbd61d26.js.map",
     "453.21be8fb1.chunk.js.map": "/invitation/static/js/453.21be8fb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b81bd7c0.css",
-    "static/js/main.ca912a92.js"
+    "static/css/main.04334638.css",
+    "static/js/main.fbd61d26.js"
   ]
 }
