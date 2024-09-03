@@ -3,7 +3,7 @@ import './divider.css';
 
 const Divider = () => {
     return (
-        <div>
+        <div style={{}}>
             <img className="divider" src={divider}></img>
         </div>
     )

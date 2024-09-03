@@ -47,13 +47,17 @@ const Gallery = ({style}) => {
       onActiveIndexChange={(e)=>setSwiperIndex(e.realIndex)}
       onSwiper={(e) => {setSwiper(e)}}
       autoplay={{ // 자동 재생
-        delay: 5000, // 지연 시간 (한 슬라이더에 머물르는 시간)
+        delay: 7000, // 지연 시간 (한 슬라이더에 머물르는 시간)
         disableOnInteraction: false, // 마우스 제어 이후 자동 재생을 막을지 말지
       }}
       speed={600} // 슬라이더 넘어가는 속도
       navigation={{
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+      }}
+      zoom={{
+        maxRatio: 3,
+        minRatio: 1,
       }}
     >
       <SwiperSlide className="slide">
