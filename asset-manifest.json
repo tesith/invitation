@@ -1,24 +1,22 @@
 {
   "files": {
     "main.css": "/invitation/static/css/main.04334638.css",
-    "main.js": "/invitation/static/js/main.1d352fff.js",
+    "main.js": "/invitation/static/js/main.b7542dd2.js",
     "static/js/453.21be8fb1.chunk.js": "/invitation/static/js/453.21be8fb1.chunk.js",
     "static/media/Maplestory Light.ttf": "/invitation/static/media/Maplestory Light.9d9497585053c96c8082.ttf",
     "static/media/KIM_0026_custom.png": "/invitation/static/media/KIM_0026_custom.184cb0f930d711c30ce3.png",
     "static/media/img5.jpg": "/invitation/static/media/img5.668171e7cd8f6191b06e.jpg",
     "static/media/img2.jpg": "/invitation/static/media/img2.a937e7beeddfda8577dd.jpg",
-    "static/media/img6.jpg": "/invitation/static/media/img6.7d7f80f2ac62ac0e7143.jpg",
     "static/media/img1.jpg": "/invitation/static/media/img1.88165036ee0b9d943000.jpg",
-    "static/media/img7.jpg": "/invitation/static/media/img7.d695fe1d545b977deceb.jpg",
     "static/media/img4.jpg": "/invitation/static/media/img4.e79e98ccbade4140e4ab.jpg",
     "static/media/img3.jpg": "/invitation/static/media/img3.dadb1584ebbde33571ca.jpg",
     "index.html": "/invitation/index.html",
     "main.04334638.css.map": "/invitation/static/css/main.04334638.css.map",
-    "main.1d352fff.js.map": "/invitation/static/js/main.1d352fff.js.map",
+    "main.b7542dd2.js.map": "/invitation/static/js/main.b7542dd2.js.map",
     "453.21be8fb1.chunk.js.map": "/invitation/static/js/453.21be8fb1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04334638.css",
-    "static/js/main.1d352fff.js"
+    "static/js/main.b7542dd2.js"
   ]
 }
