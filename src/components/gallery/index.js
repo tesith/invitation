@@ -1,7 +1,7 @@
 // Import Swiper React components
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, Zoom } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -40,9 +40,8 @@ const Gallery = ({style}) => {
       pagination={{
         clickable: true,
         type: 'bullets',
-
       }}
-      modules={[Pagination, Autoplay, Navigation]}
+      modules={[Pagination, Autoplay, Navigation, Zoom]}
       onSlideChange={() => console.log('slide change')}
       onActiveIndexChange={(e)=>setSwiperIndex(e.realIndex)}
       onSwiper={(e) => {setSwiper(e)}}
@@ -60,13 +59,11 @@ const Gallery = ({style}) => {
         minRatio: 1,
       }}
     >
-      <SwiperSlide className="slide">
-        <img src={img1} style={customStyles} />
-      </SwiperSlide>
-      <SwiperSlide className="slide"><img src={img2} style={customStyles}/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={img3} style={customStyles}/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={img4} style={customStyles}/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={img5} style={customStyles}/></SwiperSlide>
+      <SwiperSlide className="swiper-slide" zoom="true"><img src={img1} style={customStyles}/></SwiperSlide>
+      <SwiperSlide className="swiper-slide" zoom="true"><img src={img2} style={customStyles}/></SwiperSlide>
+      <SwiperSlide className="swiper-slide" zoom="true"><img src={img3} style={customStyles}/></SwiperSlide>
+      <SwiperSlide className="swiper-slide" zoom="true"><img src={img4} style={customStyles}/></SwiperSlide>
+      <SwiperSlide className="swiper-slide" zoom="true"><img src={img5} style={customStyles}/></SwiperSlide>
       <div className="swiper-button-next"></div>
       <div className="swiper-button-prev"></div>
     </Swiper>
